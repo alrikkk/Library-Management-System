@@ -1,8 +1,8 @@
 #📚 Library Management System
 
-A simple terminal-based Library Management System built using **Python** and **MySQL** as part of my Class 12 Computer Science practical.
+A simple terminal-based Library Management System built using **Python** and **MySQL** as part of my Class 12 Computer Science practical project.
 
-This project allows users to manage books and student records by connecting a Python application to a MySQL database.
+This project allows users to manage books and student records by connecting a Python application to a MySQL database which handles all the data input.
 
 ---
 
