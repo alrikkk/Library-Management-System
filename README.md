@@ -6,7 +6,7 @@ This project allows users to manage books and student records by connecting a Py
 
 ---
 
-## The list of features 
+## The List of Features 
 
 - Add new books
 - View available books
@@ -17,7 +17,7 @@ This project allows users to manage books and student records by connecting a Py
 
 ---
 
-## What was used
+## What Was Used
 
 - **Language:** Python
 - **Database:** MySQL
@@ -25,7 +25,7 @@ This project allows users to manage books and student records by connecting a Py
 
 ---
 
-## 📖 What I Learned
+## What I Learned From This
 
 While building this project, I learned:
 Connecting Python with MySQL
