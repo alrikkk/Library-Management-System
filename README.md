@@ -33,3 +33,10 @@ Writing SQL queries
 Performing CRUD (Create, Read, Update, Delete) operations
 Organizing Python programs into multiple files
 Debugging database connection issues
+
+
+
+**Table Used**
+
+<img width="610" height="518" alt="Tables" src="https://github.com/user-attachments/assets/d3dfb4e1-9ae2-4093-b578-0c8053c3c120" />
+
