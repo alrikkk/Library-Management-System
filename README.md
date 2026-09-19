@@ -1,4 +1,4 @@
-#📚 Library Management System
+## Library Management System
 
 A simple terminal-based Library Management System built using **Python** and **MySQL** as part of my Class 12 Computer Science practical.
 
@@ -6,7 +6,7 @@ This project allows users to manage books and student records by connecting a Py
 
 ---
 
-## ✨ Features
+## The list of features 
 
 - Add new books
 - View available books
@@ -17,27 +17,13 @@ This project allows users to manage books and student records by connecting a Py
 
 ---
 
-## 🛠️ Tech Stack
+## What was used
 
 - **Language:** Python
 - **Database:** MySQL
 - **Library:** mysql-connector-python
 
 ---
-
-## 🚀 Getting Started
-
-###Prerequisites
-
-- Python 3.x
-- MySQL Server
-- mysql-connector-python
-
-Install the MySQL connector using:
-
-```bash
-pip install mysql-connector-python
-```
 
 ## 📖 What I Learned
 
@@ -47,11 +33,3 @@ Writing SQL queries
 Performing CRUD (Create, Read, Update, Delete) operations
 Organizing Python programs into multiple files
 Debugging database connection issues
-
-## 🔮 Future Improvements
-
-Add a graphical user interface (Tkinter or PyQt)
-Add book search by title or author
-Add user authentication
-Generate reports for issued books
-Improve error handling
