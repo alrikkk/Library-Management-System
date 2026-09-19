@@ -62,6 +62,7 @@ def return_loan():
         print("Thank you for returning the book..")
         print("Your loan has been repayed...")
         
+
 def new_book():
     book_id = input("Enter the BookID: ")
     book_name = input("Enter the Book's Name: ")
@@ -72,6 +73,13 @@ def new_book():
     print("Book successfully added in stock...")
 
 
+def delete_book():
+    book_id = input("Enter the BookID to be deleted: ")
+    cursor.execute("delete from Books where BookID = (%s)", [book_id])
+    connection.commit()
+    print("Deletion Successful..")
+
+
 while True:
     print("\n====== |LIBRARY MENU| ======\n")
     print("1. View Books Table")
@@ -79,7 +87,8 @@ while True:
     print("3. Add a Loan")
     print("4. Return a Loan")
     print("5. Add a New Book")
-    print("6. Exit\n")
+    print("6. Delete a Book from Stock")
+    print("7. Exit\n")
     choice = int(input("Enter your choice: "))
     if choice == 1:
         view_books()
@@ -92,6 +101,8 @@ while True:
     elif choice == 5:
         new_book()
     elif choice == 6:
+        delete_book()
+    elif choice == 7:
         print("Successfully Exitted...")
         break
     else:
