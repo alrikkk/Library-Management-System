@@ -1,4 +1,4 @@
-## Library Management System
+## 📚 Library Management System
 
 I built a simple terminal-based Library Management System built using **Python** and **MySQL** as part of my Class 12 Computer Science practical.
 
@@ -42,5 +42,6 @@ Debugging database connection issues
 
 
 
-*the ooutput images are present in my project file*
+*the output images are present in my project file*
+
 
